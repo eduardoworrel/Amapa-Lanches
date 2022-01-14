@@ -12,4 +12,4 @@ $lng = post('lng');
 $lanchonete->latitude = $lat;
 $lanchonete->longitude = $lng;
 $_SESSION['lanchonete'] = serialize($lanchonete);
-include 'continueLanchonete.php';
+include 'continueLanchonete.html';

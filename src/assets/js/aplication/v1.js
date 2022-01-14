@@ -1,4 +1,4 @@
-var tipo_vigente;
+footer.htmlfooter.htmlvar tipo_vigente;
 var firstAll;
 var all;
 var userOn = false;
@@ -9,7 +9,7 @@ function initMap() {
     u = new user(google, new map(google));
     $("#fundo,#curtina").css("background", "#e5e3df");
     $.ajax({
-        url: "includes/estrutura/prototipos/interface_lanchonete.php",
+        url: "includes/estrutura/prototipos/interface_lanchonete.html",
         type: 'POST',
         data: {
             param: 1
@@ -52,7 +52,7 @@ function initMap() {
     $(".e5").html("ok");
     $(".e6,.x6").show();
     $.ajax({
-        url: "includes/estrutura/prototipos/lanchonetes_proximas.php",
+        url: "includes/estrutura/prototipos/lanchonetes_proximas.html",
         type: 'POST',
         data: {
             param: 1,

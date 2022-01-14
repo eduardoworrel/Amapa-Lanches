@@ -517,7 +517,7 @@ function getArray() {
             seletor: "#_nlc",
             funcao: function() {
                 $.ajax({
-                    url: "includes/estrutura/formularios/newLanche.php",
+                    url: "includes/estrutura/formularios/newLanche.html",
                     success: function(data) {
                         $('.forForm').html(data);
                         $('.lanches').slideUp('fast')
@@ -637,7 +637,7 @@ function getArray() {
                     success: function(data) {
                         if (parseInt(data) === 0) {
                             $.ajax({
-                                url: "includes/estrutura/formularios/cadastraLanches.php",
+                                url: "includes/estrutura/formularios/cadastraLanches.html",
                                 success: function(data) {
                                     $(".primeInfos").hide().after(data)
                                 }

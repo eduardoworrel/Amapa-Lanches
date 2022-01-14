@@ -737,7 +737,7 @@ function getArray() {
                         success: function(data) {
                             if (data == 1) {
                                 $.ajax({
-                                    url: "includes/v1/cc/startCadastro.php",
+                                    url: "includes/v1/cc/startCadastro.html",
                                     data: { value: value },
                                     success: function(data) {
                                         $(".etapa1").hide();
